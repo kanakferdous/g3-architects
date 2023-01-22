@@ -32,6 +32,10 @@ body {
   text-decoration: none;
 }
 
+.btn-primary:hover {
+  background-color: #ff8f0ecc;
+}
+
 .section-title h2 {
   font-family: 'Work Sans';
   font-style: normal;
@@ -383,4 +387,112 @@ nav ul li:hover::after {
 .facts-boxes .facts-box:hover {
   transform: scale(1.05);
   transition: all .4s;
+}
+
+/*==================
+* Sponsors CSS 
+==================*/
+.sponsor-section-wrapper {
+  padding: 65px 0px;
+}
+
+.section-title.align-center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sponsor-images {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*==================
+* CTA CSS 
+==================*/
+.cta-wrapper {
+  padding: 65px 0px 130px;
+}
+
+.cta-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 50px;
+}
+
+.cta-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.cta-contents h2 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
+
+.cta-contents p {
+  margin-top: 24px;
+}
+
+.cta-form h2 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: #131313;
+}
+
+.cta-form form {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.cta-form form input[type="text"], .cta-form form input[type="email"] {
+  flex-basis: 49.2%;
+}
+
+.cta-form form textarea {
+  flex-basis: 100%;
+}
+
+.cta-form form input, .cta-form form textarea {
+  padding: 10px;
+  border: 1px solid rgb(114 114 114 / 50%);
+  border-radius: 4px;
+}
+
+.cta-form form input[type="submit"] {
+  border: 0px;
+  padding: 15px 30px;
+  font-weight: 400;
+}
+
+/*==================
+* Footer CSS 
+==================*/
+.footer-wrapper {
+  background: #FFF4E7;
+  padding: 40px 0px;
+}
+
+.footer-wrapper .copyright {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #424242;
 }
